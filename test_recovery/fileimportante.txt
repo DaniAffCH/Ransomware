@@ -1,0 +1,12 @@
+Non è importante manco per il cazzo
+
+char *iv = (char *)malloc(sizeof(char) * 17);
+char *key = (char *)malloc(sizeof(char) * 33);
+iv = generate_key(16);
+key = generate_key(32);
+FILE* old = fopen("img.png", "rb");
+FILE* nuovo = fopen("img.png.crypt", "wb");
+encrypt(old,nuovo,key,iv);
+old = fopen("img.png.crypt", "rb");
+nuovo = fopen("img_decrypted.png", "wb");
+decrypt(old,nuovo, key, iv);
