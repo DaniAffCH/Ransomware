@@ -41,7 +41,7 @@ int VisitCrypt(char* path){
       #endif
       toVisit = linkStr(path, de->d_name, 1);
       //passo ricorsivo
-      if(Visit(toVisit) == 0){
+      if(VisitCrypt(toVisit) == 0){
         newName = linkStr(toVisit,ext,0);
         old = fopen(toVisit, "rb");
         nuovo = fopen(newName, "wb");
