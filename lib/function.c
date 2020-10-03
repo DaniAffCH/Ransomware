@@ -19,6 +19,13 @@ char* linkStr(char* s1, char* s2, int isPath){
   return newStr;
 }
 
+char* removeLastChars(char* str, int n){
+  char* newStr = (char*) malloc(strlen(str));
+  strcpy(newStr,str);
+  newStr[strlen(newStr)-n] = '\0';
+  return newStr;
+}
+
 void deleteFile(char *path){
   int BUF_SIZE = 4096;
   struct stat path_buff;

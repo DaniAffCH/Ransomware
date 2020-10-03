@@ -1,1 +1,1 @@
-g++ -o main main.c lib/crypt.c lib/function.c -lcrypto
+g++ -o bin/main main.c lib/crypt.c lib/function.c -lcrypto
