@@ -5,3 +5,9 @@ I'm not responsible of any malicious use of the tool.
 
 ### Dependencies 
 To work the tool need OpenSSL to be installed properly (https://www.openssl.org/source/)
+
+### Using the tool
+- To encrypt a directory (and sub-directory)
+'''bin/main crypt [PathToEncrypt]'''
+- To decrypt a directory (and sub-directory)
+'''bin/main decrypt [PathToEncrypt]'''
