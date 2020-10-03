@@ -5,7 +5,7 @@ I'm not responsible of any malicious use of the tool. If you don't understand wh
 
 ### Dependencies 
 To work the tool need OpenSSL to be installed properly (https://www.openssl.org/source/)  
-to do it in debian/ubuntu:
+to do it in debian/ubuntu:  
 `~$ sudo apt-get install libssl-dev`
 
 ### Using the tool
