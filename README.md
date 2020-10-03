@@ -8,6 +8,6 @@ To work the tool need OpenSSL to be installed properly (https://www.openssl.org/
 
 ### Using the tool
 - To encrypt a directory (and sub-directory)  
-~$ bin/main crypt [PathToEncrypt]
+`~$ bin/main crypt [PathToEncrypt]`
 - To decrypt a directory (and sub-directory)  
-~$ bin/main decrypt [PathToEncrypt]
+`~$ bin/main decrypt [PathToEncrypt]`
