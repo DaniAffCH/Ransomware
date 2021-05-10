@@ -12,4 +12,4 @@ to do it in debian/ubuntu:
 - To encrypt a directory (and sub-directory)  
 `~$ bin/main crypt [PathToEncrypt]`
 - To decrypt a directory (and sub-directory)  
-`~$ bin/main decrypt [PathToEncrypt]`
+`~$ bin/main decrypt [PathToDecrypt]`
