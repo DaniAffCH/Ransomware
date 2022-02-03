@@ -9,7 +9,7 @@ to do it in debian/ubuntu:
 `~$ sudo apt-get install libssl-dev`
 
 ### Using the tool
-- To encrypt a directory (and sub-directory)  
+- To encrypt a directory (and its sub-directory)  
 `~$ bin/main crypt [PathToEncrypt]`
-- To decrypt a directory (and sub-directory)  
+- To decrypt a directory (and its sub-directory)  
 `~$ bin/main decrypt [PathToDecrypt]`
